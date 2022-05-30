@@ -37,7 +37,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   line-height: 1;
-  overflow-x: hidden;
+  font-size: 1.8rem;
 }
 
 strong {
@@ -56,7 +56,7 @@ li {
 .heading-secondary,
 .heading-tertiary {
   font-weight: 700;
-  letter-spacing: -0.5px;
+  letter-spacing: -0.6px;
 }
 
 .heading-primary {
@@ -80,7 +80,6 @@ li {
 .subheading {
   color: var(--color-secondary);
   display: block;
-  font-size: 1.6rem;
   font-weight: 500;
   letter-spacing: 0.6px;
   margin-bottom: 1.6rem;
@@ -88,14 +87,13 @@ li {
 }
 
 .container {
-  // max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
 }
 
 .grid {
-  column-gap: 4.8rem;
   display: grid;
+  column-gap: 4.8rem;
   row-gap: 8rem;
 }
 
@@ -155,7 +153,7 @@ li {
       .nav-last:link,
       .nav-last:visited {
         background-color: var(--color-secondary);
-        border-radius: 9px;
+        border-radius: 11px;
         color: var(--color-white) !important;
         padding: 0.8rem 1.6rem;
         transition: all 0.3s ease-in-out;
@@ -236,9 +234,9 @@ li {
         font-size: 2rem;
         font-weight: 500;
         padding: 1.2rem 2.4rem;
-        border-radius: 9px;
+        border-radius: 11px;
         margin: 0.5rem;
-        transition: all 0.4s ease-out;
+        transition: all 0.3s ease-out;
       }
 
       .btn-full:link,
@@ -409,7 +407,7 @@ li {
       text-align: center;
       background-color: var(--color-secondary);
       color: var(--color-primary);
-      border-radius: 100px;
+      border-radius: 101px;
       width: 30%;
       margin-top: -0.4rem;
     }
@@ -522,7 +520,6 @@ li {
           margin-bottom: 1.6rem;
         }
         .testimonial-name {
-          font-size: 1.6rem;
           color: var(--color-gray-1);
         }
       }
@@ -540,7 +537,7 @@ li {
         display: block;
         width: 100%;
         margin: 0;
-        transition: all 0.4s ease;
+        transition: all 0.3s ease;
         opacity: 0.8;
       }
       .gallery-img:hover {
@@ -559,7 +556,7 @@ li {
   padding: 8rem 0;
   align-items: center;
   .pricing-plan {
-    border-radius: 19px;
+    border-radius: 11px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -592,7 +589,6 @@ li {
       }
       .plan-text {
         color: var(--color-gray-1);
-        font-size: 1.6rem;
         line-height: 1.6;
         margin: 0.8rem 0;
       }
@@ -613,7 +609,6 @@ li {
 
         i {
           color: var(--color-secondary);
-          font-size: 1.6rem;
         }
 
         .disapear {
@@ -633,9 +628,9 @@ li {
       font-size: 1.8rem;
       font-weight: 500;
       padding: 1.2rem 2.4rem;
-      border-radius: 9px;
+      border-radius: 11px;
       margin: 0.5rem;
-      transition: all 0.4s ease-out;
+      transition: all 0.3s ease-out;
       width: 55%;
     }
 
@@ -687,7 +682,6 @@ li {
 .plan-details {
   color: var(--color-gray-1);
   text-align: center;
-  font-size: 1.6rem;
 }
 
 .features {
@@ -718,7 +712,6 @@ li {
     }
 
     .feature-text {
-      font-size: 1.6rem;
       color: var(--color-gray-1);
     }
   }
@@ -792,7 +785,6 @@ li {
           }
 
           .label-where {
-            font-size: 1.6rem !important;
             color: var(--color-black) !important;
           }
 
@@ -816,7 +808,7 @@ li {
           font-weight: 700;
           padding: 1.2rem 2.4rem;
           border-radius: 11px;
-          transition: all 0.2s ease-in-out;
+          transition: all 0.3s ease-in-out;
           width: 24rem;
           border: none;
           margin-left: 55%;
