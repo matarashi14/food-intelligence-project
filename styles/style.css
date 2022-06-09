@@ -32,7 +32,7 @@ body {
   color: var(--color-black);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  line-height: 1.2;
+  line-height: 1;
   font-size: 1.8rem;
 }
 
@@ -52,7 +52,7 @@ li {
 .heading-secondary,
 .heading-tertiary {
   font-weight: 700;
-  letter-spacing: -0.5px;
+  letter-spacing: -0.6px;
 }
 
 .heading-primary {
@@ -88,10 +88,10 @@ li {
 }
 
 .grid {
-  -webkit-column-gap: 4.8rem;
-          column-gap: 4.8rem;
   display: -ms-grid;
   display: grid;
+  -webkit-column-gap: 4.8rem;
+          column-gap: 4.8rem;
   row-gap: 8rem;
 }
 
@@ -167,7 +167,7 @@ li {
 .header .main-nav .main-nav-list .nav-last:link,
 .header .main-nav .main-nav-list .nav-last:visited {
   background-color: var(--color-secondary);
-  border-radius: 9px;
+  border-radius: 11px;
   color: var(--color-white) !important;
   padding: 0.8rem 1.6rem;
   -webkit-transition: all 0.3s ease-in-out;
@@ -247,10 +247,10 @@ li {
   font-size: 2rem;
   font-weight: 500;
   padding: 1.2rem 2.4rem;
-  border-radius: 9px;
+  border-radius: 11px;
   margin: 0.5rem;
-  -webkit-transition: all 0.4s ease-out;
-  transition: all 0.4s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 .section-hero .hero .hero-text-box .btn-full:link,
@@ -445,7 +445,7 @@ li {
   text-align: center;
   background-color: var(--color-secondary);
   color: var(--color-primary);
-  border-radius: 100px;
+  border-radius: 101px;
   width: 30%;
   margin-top: -0.4rem;
 }
@@ -611,8 +611,8 @@ li {
   display: block;
   width: 100%;
   margin: 0;
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
   opacity: 0.8;
 }
 
@@ -630,7 +630,7 @@ li {
 }
 
 .section-pricing .pricing-plan {
-  border-radius: 19px;
+  border-radius: 11px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -729,10 +729,10 @@ li {
   font-size: 1.8rem;
   font-weight: 500;
   padding: 1.2rem 2.4rem;
-  border-radius: 9px;
+  border-radius: 11px;
   margin: 0.5rem;
-  -webkit-transition: all 0.4s ease-out;
-  transition: all 0.4s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
   width: 55%;
 }
 
@@ -964,8 +964,8 @@ li {
   font-weight: 700;
   padding: 1.2rem 2.4rem;
   border-radius: 11px;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   width: 24rem;
   border: none;
   margin-left: 55%;
